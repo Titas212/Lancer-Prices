@@ -72,10 +72,17 @@ class Calculations:
     def average_price(self):
         return sum(self.num_prices) / len(self.num_prices)
 
+    def most_expensive(self):
+        return max(self.num_prices)
+
+    def cheapest(self):
+        return min(self.num_prices)
 
 scraper = Scrape("https://www.autoscout24.com/lst/mitsubishi/lancer/ve_evo?atype=C&page=1")
 scraper.find_pages()
 scraper.find_prices_names()
-scraper.write_to_file()
-scraper.close_file()
-scraper.clean_dir()
+calc = Calculations(scraper.names_list, scraper.prices_list)
+calc.price_to_number()
+print(calc.average_price())
+print(calc.most_expensive())
+print(calc.cheapest())
