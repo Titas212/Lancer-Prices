@@ -17,7 +17,7 @@ _filecmp_
 #### Requirements:
 - [x] 1. As a user, I want to be able to see Mitsubishi Lancer EVO models and prices in a txt file, such that I could compare them.
 - [x] 2. As a user, I want to be able to see the average price of EVO models from the site, such that I could notice the changes in the EVO models average prices.
-- [ ] 3. As a user, I want to be able to see the average price different EVO versions, such that I could notice the changes in different versions average price.
+- [ ] 3. As a user, I want to be able to see the average price of different EVO versions, such that I could notice the changes in different versions average price.
 - [x] 4. As a user, I want to be able to be able to see new file anytime, I run the script, such that, it would be easier to read and compare the data.
 - [ ] 5. As a user, I want to be able to see the lowest and the highest price of the EVO model, on the website, such that I could compare the data in different periods.
 - [x] 6. As a user, I want the filenames to be the date of script running, such that, it would be easier to compare and find data of different periods.
