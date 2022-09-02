@@ -1,6 +1,6 @@
 ﻿# Lancer-Prices
 
-#### The purpose of this script is to scrape Mitsubishi Lacer Evo models and their prices from https://www.autoscout24.com/lst/mitsubishi/lancer/ve_evo?atype=C&page=1
+#### The purpose of this script is to scrape Mitsubishi Lacer Evo models and their prices from https://www.autoscout24.com/
 #### The end goal would be to have the script, that could be used on any car data website.
 
 ### Libraries used:
